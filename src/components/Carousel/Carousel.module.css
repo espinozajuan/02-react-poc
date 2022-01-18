@@ -1,0 +1,29 @@
+.productImagesCarousel {
+  width: 25rem;
+  height: 25rem;
+  border-radius: .5rem;
+}
+
+.productImagesCarousel div {
+  border-radius: .5rem;
+}
+
+.productImage {
+  object-fit: cover;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: .5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .productImagesCarousel {
+    width: 100vw;
+    border-radius: initial;
+    height: 17.5rem;
+  }
+  
+  .productImagesCarousel div,
+  .productImage {
+    border-radius: initial;
+  }
+}

@@ -1,0 +1,39 @@
+.cart {
+  position: absolute;
+  top: calc(100% + 2rem);
+  right: -5rem;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+  width: 17.5rem;
+  border-radius: .75rem;
+  background-color: #fff;
+  z-index: 2;
+}
+
+@media screen and (max-width: 575px) {
+  .cart {
+    width: 95vw;
+    top: calc(100% + 3rem);
+    right: -5.5rem;
+  }
+}
+
+.cartHeader {
+  border-bottom: 1px solid #e8e7ec;
+  padding: 1rem;
+}
+
+.cartHeader h6 {
+  font-size: 1rem;
+  color: #1e1e20;
+}
+
+.cartMain {
+  padding: 1rem;
+}
+
+.cartEmptyText {
+  text-align: center;
+  padding: 4rem 0;
+  font-weight: 500;
+  color: #b5b6ba;
+}
