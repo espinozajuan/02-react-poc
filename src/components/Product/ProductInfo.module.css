@@ -37,7 +37,7 @@
 }
 
 .productDiscountedPrice {
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: #1e1e20;
   margin-right: 1rem;
 }
@@ -47,13 +47,12 @@
   padding: .25rem .5rem;
   background-color: rgba(255, 125, 27, .25);
   color: #ff7d1b;
-  font-size: .75rem;
+  font-size: .90rem;
   font-weight: 700;
   border-radius: .25rem;
 }
 
 .productActualPrice {
   color: #b5b6ba;
-  font-size: .90rem;
-  font-weight: 700 ;
+  font-size: .95rem;
 }

@@ -38,6 +38,7 @@
 .productThumb {
   max-width: 100%;
   border-radius: .5rem;
+  cursor: pointer;
 }
 
 .productThumbWrapper.active .productThumb {
