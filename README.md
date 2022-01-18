@@ -1,4 +1,4 @@
-# Segundo Challenge Técnico Valtech
+# React PoC Valtech
 
 ***Consigna Principal:*** Desarrollar una PDP (Product Detail Page), donde el usuario 
 pueda ver el detalle de un producto.
@@ -37,3 +37,5 @@ pueda ver el detalle de un producto.
 - No utilizar libs como material design, bootstrap, etc.
 - No es requerido (pero permitido) utilizar alguna librería para el manejo de  estado como Redux. 
 - La parte mobile que está en los diseños es ***requerida***. La app tiene que ser  totalmente ***responsive***.
+
+# Live Version https://02-react-poc.vercel.app/
